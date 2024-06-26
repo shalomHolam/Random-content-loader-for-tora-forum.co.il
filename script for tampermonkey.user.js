@@ -11,6 +11,9 @@
 
 (function() {
     'use strict';
+if (document.querySelector(".p-offline-header")) {
+	return;
+}
 let newHtml = `
 <li>
 	<div class="p-navEl " data-has-children="true" style="user-select: none; pointer-events: auto;">
